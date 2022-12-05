@@ -4,8 +4,8 @@ import base64
 
 from google.cloud import bigquery
 
-DATASET = ''
-TABLE = ''
+DATASET = 'hass'
+TABLE = 'tado'
 
 bigquery_client = bigquery.Client()
 dataset = bigquery_client.dataset(DATASET)
